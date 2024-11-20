@@ -6,6 +6,7 @@
 // run with: ./hello_sdl2
 #include <SDL2/SDL.h>
 #include <stdio.h>
+#include "asio.hpp"
 
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480

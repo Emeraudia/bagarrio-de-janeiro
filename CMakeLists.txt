@@ -11,8 +11,12 @@ find_package(SDL2 REQUIRED)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${SDL2_INCLUDE_DIRS})
 
+
 # Create executable 
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
+if(WIN32)
+  target_link_libraries(${PROJECT_NAME} ws2_32)
+endif()
