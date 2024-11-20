@@ -6,4 +6,5 @@
 - Language : C++
 - Graphics : SDL
 - Data : SQL
-- Test : Unit test 
+- Test : Unit test
+- Test fonctionel: google test
