@@ -2,8 +2,8 @@
 
 ## Specifications
 
-- Peer to peer [Spread](http://www.spread.org/)
 - Language : C++
-- Graphics : SDL
+- Graphics : [SDL](https://www.libsdl.org/)
 - Data : SQL
-- Test : Unit test (Google Test)
+- Networking : Peer to peer [Asio](https://think-async.com/Asio/)
+- Test : Unit test [Google Test] (https://google.github.io/googletest/)
