@@ -2,7 +2,7 @@
 
 ## Specifications
 
-- Peer to peer
+- Peer to peer [Spread](http://www.spread.org/)
 - Language : C++
 - Graphics : SDL
 - Data : SQL
