@@ -13,10 +13,10 @@ include_directories(${SDL2_INCLUDE_DIRS})
 
 
 # Create executable 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp src/p2p/tcp_server.cpp)
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
 if(WIN32)
-  target_link_libraries(${PROJECT_NAME} ws2_32)
+  target_link_libraries(${PROJECT_NAME} ws2_32 mswsock)
 endif()
